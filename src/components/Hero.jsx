@@ -2,7 +2,7 @@
 
 const Hero = () => {
     return (
-        <div>
+        <div className="h-[50vh]">
             Hero
         </div>
     );
