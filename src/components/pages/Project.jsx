@@ -1,4 +1,5 @@
 import { Carousel, IconButton } from "@material-tailwind/react";
+import { FaEye } from "react-icons/fa";
 
 const Project = () => {
     return (
@@ -86,15 +87,19 @@ const Project = () => {
         <div className="">
             <h1 className="text-3xl font-semibold">MREN Stack Project</h1>
             <p className="text-yellow-500">A parcel order and delivery website</p>
-            <p></p>
+            <p className="text-xl py-6">Front-end Code: <a href="https://github.com/bashputi/parcel_client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/parcel-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <a href="https://parcel-delivery-user.web.app"><button className="btn btn-success">Live Site</button></a>
         </div>
         </div>
         {/* 2 no project  */}
-      <div className="lg:flex justify-center bg-primary lg:w-4/5 mx-auto gap-12 mt-20">
+      <div className="lg:flex justify-center my-32 bg-primary lg:w-4/5 mx-auto gap-12">
           <div className="">
               <h1 className="text-3xl font-semibold">Full Stack Project</h1>
               <p className="text-yellow-500">Food ordering website</p>
-              <p></p>
+              <p className="text-xl py-6">Front-end Code: <a href="https://github.com/bashputi/bakery-client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/bakery-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <a href="https://bakery-client-2384d.web.app"><button className="btn btn-success">Live Site</button></a>
           </div>
            
           <div className="flex-1">
@@ -251,7 +256,9 @@ const Project = () => {
           <div className="">
               <h1 className="text-3xl font-semibold">Front-end Project</h1>
               <p className="text-yellow-500">Car selling website according to brand</p>
-              <p></p>
+              <p className="text-xl py-6">Front-end Code: <a href="https://github.com/bashputi/Brandshop-client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/Brand-shop-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
+              <a href="https://brandsore-client.web.app"><button className="btn btn-success">Live Site</button></a>
           </div>
           </div>
   
