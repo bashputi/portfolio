@@ -5,6 +5,7 @@ import { SectionWrapper } from '../../hoc';
 import { slideIn } from '../../utils/motion';
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
+import Swal from 'sweetalert2';
 
 
 const Contact = () => {
@@ -15,8 +16,51 @@ const Contact = () => {
         message: '',
     });
     const [loading, setLoading] = useState(false);
-    const handleChange = (e) => {}
-    const handleSubmit = (e) => {}
+
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setForm({ ...form, [name]: value })
+
+    }
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setLoading(true);
+
+      emailjs.send(
+        'service_eqd9bnn',
+        'template_pne1a3n',
+        {
+          form_name: form.name,
+          to_name: 'Rime',
+          from_email: form.email,
+          to_email: 'rimeislam672@gmail.com',
+          message: form.text,
+        },
+        'dhlxN7srrlbHV14-N'
+      )
+      .then(() => {
+        setLoading(false);
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your massage has been send",
+          showConfirmButton: false,
+          timer: 1500
+        }); 
+
+        setForm({
+          name: '',
+          email: '',
+          text: '',
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error);
+        alert('something went wrong')
+      }
+      )
+    }
+
 
     return (
 
