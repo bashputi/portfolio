@@ -1,4 +1,4 @@
-
+import { Link } from "react-scroll";
 import Banner from "../Banner";
 import LatestWork from "../LatestWork";
 import Skill from "../Skill";
@@ -10,33 +10,33 @@ import { GiSkills } from "react-icons/gi";
 
 
 
+
 const About = () => {
     
     return (
-       <div className="bg-primary w-full h-[2800px] ">
+       <div className="bg-primary w-full">
        <Banner></Banner>
        <Works></Works>
-       <LatestWork></LatestWork>
        <Skill></Skill>
+       <LatestWork></LatestWork>
+
        
-       <div className="fixed top-[30vh] right-12 lg:right-28">
-                <a href="#banner">
-                  <div className="p-3 rounded-full">
-                  <FaUserAlt className="w-6 text-white h-6"/>
-                  </div>
-                  </a>
-                  <a href="#work">
-                    <div className="p-3  rounded-full"><FaClipboardList className="w-6 text-white h-6"/></div>
-                  </a>
-                  <a href="#latestwork">
-                    <div className="p-3 touch-auto rounded-full"><FaBriefcase className="w-6 text-white h-6"/></div>
-                  </a>
-                  <a href="#skill">
-                 <div className="p-3 rounded-full"><GiSkills className="w-6 text-white h-6"/></div>
-                  </a>
-                  <a href="#education">
-                    <div className="p-3 rounded-full"><FaGraduationCap className="w-6 text-white h-6"/></div>
-                  </a>
+       <div className="fixed flex flex-col items-center  h-32 gap-5 top-[30vh] mx-auto w-14 right-12 lg:right-28">
+                <Link activeClass="active" smooth={true} spy={true} to="banner">
+                  
+                  <FaUserAlt className="text-center w-6 text-white h-6"/>
+                 
+                  </Link>
+                  <Link activeClass="active" smooth={true} spy={true} to="work">
+                    <FaClipboardList className="text-center w-6 text-white h-6"/>
+                  </Link>
+                  <Link activeClass="active" smooth={true} spy={true} to="skill">
+                 <GiSkills className="text-center w-6 text-white h-6"/>
+                  </Link>
+                  <Link activeClass="active" smooth={true} spy={true} to="latestwork">
+                    <FaBriefcase className="text-center w-6 text-white h-6"/>
+                  </Link>
+                 
              </div>
 
        </div>

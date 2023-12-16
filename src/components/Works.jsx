@@ -12,7 +12,7 @@ const Works = () => {
         }
       };
       const lottieContainerStyle = {
-        transform: 'rotate(45deg)', // Counteract the default rotation
+        transform: 'rotate(40deg)', // Counteract the default rotation
       };
 
     const services = [
@@ -34,8 +34,8 @@ const Works = () => {
     ]
 
     return (
-        <div id="work" className="h-screen sm:px-16 px-1.5 text-white max-w-7xl mx-auto ">
-                <h1 className="text-center mt-12 text-xl font-bold md:text-3xl lg:text-5xl">What I do</h1>
+        <div id="work" className=" sm:px-16 pt-20 pb-12 px-1.5 text-white max-w-7xl mx-auto ">
+                <h1 className="text-center uppercase mt-12 text-xl font-bold md:text-3xl lg:text-5xl">What I do</h1>
                 <div className="lg:flex justify-evenly gap-16 items-center">
                 <div className="flex-1">
                 {/* animation  */}

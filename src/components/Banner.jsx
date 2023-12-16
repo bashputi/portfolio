@@ -1,6 +1,5 @@
 import { FaArrowAltCircleDown, FaRegEye } from "react-icons/fa";
 import jsPDF from "jspdf";
-import { motion } from "framer-motion";
 
 
 
@@ -26,17 +25,17 @@ const Banner = () => {
     };
 
     return (
-        <div id="banner" className="relative h-screen mx-auto">
-        <div className="sm:px-16 px-6 text-white absolute inset-0 top-[70px] md:top-[100px] lg:top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
+        <div id="banner" className="pt-28 pb-16">
+        <div className="sm:px-16 px-6 text-white  inset-0 top-[70px] md:top-[100px] lg:top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5">
              <div className="flex w-[98vw] h-[70vh] justify-between items-center">
                  <div className="">
                      <h1 className="text-xl font-bold md:text-3xl lg:text-5xl">RIME ISLAM RIMU</h1>
-                     <h3 className="lg:text-xl font-semibold text-yellow-600">MERN stack Developer</h3>
-
+                     <h3 className="lg:text-xl font-semibold text-yellow-600">Front-end Developer</h3>
+                        <p className="lg:w-96 w-56 mt-2">Allow me to introduce myself: I'm a Junior Development Dynamo! With a passion for blending creativity and coding expertise, I thrive on crafting captivating web experiences that seamlessly merge pixels and logic into user-centric marvels.</p>
+                        <p className="text-purple-300 md-2 md:mt-5">BSc in Geography and Environment </p>
+                     <p className="text-sm text-blue-500 font-semibold">(2020-continue)</p>
                      <div className="mt-5">
                         <h1 className="text-2xl font-semibold md:text-3xl">My Resume</h1>
-                        
-
                         <button onClick={() => { downloadFile() }} className="btn mt-4 btn-success px-5">
                 <FaArrowAltCircleDown />
             </button>
@@ -50,23 +49,7 @@ const Banner = () => {
             
           
           </div>
-          <div className='absolute xs:bottom-12 bottom-12 w-full flex justify-center items-center'>
-     
-     <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-     <motion.div
-       animate={{
-         y: [0, 24, 0],
-       }}
-       transition={{
-         duration: 1.5,
-         repeat: Infinity,
-         repeatType: "loop",
-       }}
-       className='w-3 h-3 rounded-full bg-secondary mb-1'
-     />
-   </div>
- 
-</div>
+    
 <div className="fixed pl-12 lg:pl-28 bottom-3 md:bottom-10">
                  <a href="https://github.com/bashputi">
                  <div>
