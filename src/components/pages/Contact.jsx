@@ -65,7 +65,7 @@ const Contact = () => {
     <div className="relative z-0 min-h-[100vh] bg-primary pb-28 lg:pb-0 pt-28 lg:pt-32 w-full mx-auto">
         <div className="sm:px-16 px-6 text-white max-w-7xl mx-auto flex flex-row items-start gap-5">
             <div className="xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-              <div className='flex-[0.75] bg-black-100 w-[620px] p-5 rounded-2xl'>
+              <div data-aos="fade-right" data-aos-duration="2000" className='flex-[0.75] bg-black-100 w-[620px] p-5 rounded-2xl'>
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className="text-5xl font-bold">Contact</h3>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                 </form>
                 
               </div>
-              <div className='lg:flex-1 lg:h-auto md:h-[550px] h-[350px]'>
+              <div data-aos="fade-left" data-aos-duration="2000" className='lg:flex-1 lg:h-auto md:h-[550px] h-[350px]'>
                 <EarthCanvas />
                 
               </div>

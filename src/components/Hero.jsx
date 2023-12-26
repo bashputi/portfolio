@@ -5,7 +5,7 @@ import { ComputersCanvas } from './canvas';
 const Hero = () => {
     return (
         <section className="relative w-full h-screen mx-auto">
-            <div data-aos="fade-right" data-aos-duration="3000" className={`${styles.paddingX} absolute inset-0 top-[70px] md:top-[90px] lg:top-[110px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+            <div data-aos="fade-right" data-aos-duration="2000" className={`${styles.paddingX} absolute inset-0 top-[70px] md:top-[90px] lg:top-[110px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
                 
             <div>
                 
@@ -16,7 +16,10 @@ const Hero = () => {
             </div>
         
             </div>
+          
             <ComputersCanvas />
+        
+            
           
         </section>
     );

@@ -35,7 +35,7 @@ const Works = () => {
 
     return (
         <div id="work" className=" sm:px-16 pt-20 pb-12 px-1.5 text-white max-w-7xl mx-auto ">
-                <h1 className="text-center uppercase mt-12 text-xl font-bold md:text-3xl lg:text-5xl">What I do</h1>
+                <h1 data-aos="fade-up" data-aos-duration="2000" className="text-center uppercase mt-12 text-xl font-bold md:text-3xl lg:text-5xl">What I do</h1>
                 <div className="lg:flex justify-evenly lg:gap-16 items-center">
                 <div className="flex-1">
                
@@ -44,7 +44,7 @@ const Works = () => {
                         </div>                 
             </div>
 
-            <div className="flex-1 ">
+            <div data-aos="zoom-in" data-aos-duration="2000" className="flex-1 ">
                 {/* services  */}
                 {
                     services.map((item) => (
