@@ -19,34 +19,32 @@ const Works = () => {
         {
             id: '01',
             name: 'React js Developer',
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus magnam voluptatum, totam dolor labore obcaecati corrupti quidem exercitationem ea natus.'
+            description: 'Designing dynamic interfaces, managing state flawlessly, and integrating data seamlessly—your knack for React development fuels high-performance, collaborative, and innovative web experiences.'
         },
         {
             id: '02',
             name: 'Front-end Developer',
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus magnam voluptatum, totam dolor labore obcaecati corrupti quidem exercitationem ea natus.'
+            description: 'Creating captivating interfaces, and integrating data flawlessly—your expertise as a front-end developer drives high-performance, collaborative, and innovative web experiences.',
         },
         {
-            id: '04',
-            name: 'Back-end Developer',
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus magnam voluptatum, totam dolor labore obcaecati corrupti quidem exercitationem ea natus.'
-        }
+            id: '03',
+            name: 'MERN Stack Developer',
+            description: 'Crafting captivating interfaces, and integrating data flawlessly within the MERN stack—your expertise drives high-performance, collaborative, and innovative web experiences from end to end.'
+    }
     ]
 
     return (
         <div id="work" className=" sm:px-16 pt-20 pb-12 px-1.5 text-white max-w-7xl mx-auto ">
                 <h1 className="text-center uppercase mt-12 text-xl font-bold md:text-3xl lg:text-5xl">What I do</h1>
-                <div className="lg:flex justify-evenly gap-16 items-center">
+                <div className="lg:flex justify-evenly lg:gap-16 items-center">
                 <div className="flex-1">
-                {/* animation  */}
-                    <div style={lottieContainerStyle}>
-                    <Lottie options={defaultOptions}
-                        height={800}
-                        width={400}
-                        />   
+               
+                    <div className="w-[400px] h-[200px] lg:h-[800px]" style={lottieContainerStyle}>
+                    <Lottie options={defaultOptions} />   
                         </div>                 
             </div>
-            <div className="flex-1">
+
+            <div className="flex-1 ">
                 {/* services  */}
                 {
                     services.map((item) => (
@@ -59,7 +57,7 @@ const Works = () => {
             </div>
                 </div>
          
-        </div>
+         </div>
    
     );
 };

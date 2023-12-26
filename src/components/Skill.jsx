@@ -13,7 +13,7 @@ const Skill = () => {
       };
 
     return (
-        <div id='skill' className='md:py-32 lg:flex justify-evenly gap-5 align-center sm:px-16 pb-12 px-1.5 text-white max-w-7xl mx-auto'>
+        <div id='skill' className=' md:py-32 lg:flex justify-evenly gap-5 align-center sm:px-0 pb-12 text-white max-w-7xl mx-auto'>
            <div className="flex-1">
            <div className="w-full mx-auto">
         <h1 className="text-center uppercase font-bold text-white text-3xl lg:text-5xl">Tech Stack</h1>
