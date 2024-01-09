@@ -26,8 +26,8 @@ const Banner = () => {
     };
 
     return (
-        <div id="banner" className=" pt-28 pb-16">
-               <div className="sm:px-6 px-6 text-white pt-48 max-w-7xl mx-auto flex flex-row items-start gap-5">
+        <div id="banner" className=" lg:pt-28 pb-16">
+               <div className="sm:px-6 px-6 text-white pt-28 lg:pt-48 max-w-7xl mx-auto flex flex-row items-start gap-5">
              <div className="flex w-[98vw] justify-between items-center">
                  <div data-aos="fade-right" data-aos-duration="2000" className="pr-2">
                      <h1 className="text-xl font-bold md:text-3xl lg:text-5xl">RIME ISLAM RIMU</h1>
@@ -42,7 +42,7 @@ const Banner = () => {
                         <button onClick={() => { downloadFile() }} className="btn mt-4 btn-success px-5 ">
                 <FaArrowAltCircleDown className="h-5 w-6 hover:w-8"/>
             </button>
-                       <a href="https://drive.google.com/file/d/1iFAUoqB7dNFHKDNXgkI4qO-1EBo1jL7D/view?fbclid=IwAR3UGwthi8TtMCeaZV4weAfMezAu81VtOnfIo5KJSrd3liTqlwcMr-0FotY"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
+                       <a href="https://drive.google.com/file/d/1J-u0rC8ShpzsJNXmGWJH392aTtefv1Js/view?usp=sharing"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
                      </div>
                  </div>
                  <div data-aos="fade-left" data-aos-duration="2000" className="">

@@ -9,7 +9,7 @@ const Project = () => {
          {/* 1 no project  */}
         <div className="lg:flex justify-center bg-primary lg:w-4/5 mx-auto gap-12 mt-20">
           
-        <div data-aos="fade-right" data-aos-duration="2000" className="flex-1 pb-8">
+        <div data-aos="fade-up" data-aos-duration="2000" className="flex-1 pb-8">
           <Carousel
       className="rounded-xl"
       prevArrow={({ handlePrev }) => (
@@ -84,7 +84,7 @@ const Project = () => {
     </Carousel>
           
           </div>
-        <div data-aos="fade-left" data-aos-duration="2000" className="">
+        <div data-aos="fade-down" data-aos-duration="2000" className="">
             <h1 className="text-3xl font-semibold">MREN Stack Project</h1>
             <p className="text-yellow-500">A parcel order and delivery website</p>
             <p className="text-xl py-5">Front-end Code: <a href="https://github.com/bashputi/parcel_client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
@@ -97,7 +97,7 @@ const Project = () => {
         </div>
         {/* 2 no project  */}
       <div className="lg:flex justify-center my-44 bg-primary lg:w-4/5 mx-auto gap-12">
-          <div data-aos="fade-right" data-aos-duration="2000" className="mb-8">
+          <div data-aos="fade-up" data-aos-duration="2000" className="mb-8">
               <h1 className="text-3xl font-semibold">Full Stack Project</h1>
               <p className="text-yellow-500">Food ordering website</p>
               <p className="text-xl py-5">Front-end Code: <a href="https://github.com/bashputi/bakery-client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
@@ -109,7 +109,7 @@ const Project = () => {
               
           </div>
            
-          <div data-aos="fade-left" data-aos-duration="2000" className="flex-1">
+          <div data-aos="fade-down" data-aos-duration="2000" className="flex-1">
           <Carousel
       className="rounded-xl"
       prevArrow={({ handlePrev }) => (
@@ -189,7 +189,7 @@ const Project = () => {
        
       <div  className="lg:flex justify-center bg-primary lg:w-4/5 mx-auto gap-12 mt-20">
           
-          <div data-aos="fade-right" data-aos-duration="2000" className="flex-1 mb-8">
+          <div data-aos="fade-up" data-aos-duration="2000" className="flex-1 mb-8">
           <Carousel
       className="rounded-xl"
       prevArrow={({ handlePrev }) => (
@@ -260,7 +260,7 @@ const Project = () => {
     </Carousel>
           
           </div>
-          <div data-aos="fade-left" data-aos-duration="2000" className="">
+          <div data-aos="fade-down" data-aos-duration="2000" className="">
               <h1 className="text-3xl font-semibold">Front-end Project</h1>
               <p className="text-yellow-500">Car selling website according to brand</p>
               <p className="text-xl py-6">Front-end Code: <a href="https://github.com/bashputi/Brandshop-client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
