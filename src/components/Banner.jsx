@@ -4,7 +4,7 @@ import jsPDF from "jspdf";
 
 
 
-const PDF_URL = "https://i.ibb.co/7RZmGYD/Rime-s-resume-MERN-stack-Developer-page-0001.jpg";
+const PDF_URL = "https://i.ibb.co/HV53xkb/Rime-s-Web-Developer-Resume-page-0001.jpg";
 
 const Banner = () => {
  
@@ -42,7 +42,7 @@ const Banner = () => {
                         <button onClick={() => { downloadFile() }} className="btn mt-4 btn-success px-5 ">
                 <FaArrowAltCircleDown className="h-5 w-6 hover:w-8"/>
             </button>
-                       <a href="https://drive.google.com/file/d/1J-u0rC8ShpzsJNXmGWJH392aTtefv1Js/view?usp=sharing"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
+                       <a href="https://drive.google.com/file/d/1UQD1x_75WkJdpSESnRGq4R8-wiw1UNhC/view?usp=drive_link"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
                      </div>
                  </div>
                  <div data-aos="fade-left" data-aos-duration="2000" className="">
