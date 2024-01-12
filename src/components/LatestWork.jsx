@@ -2,7 +2,7 @@
 
 const LatestWork = () => {
     return (
-        <div id="latestwork" className="py-32 flex justify-center">
+        <div id="latestwork" className="lg:h-screen py-32 flex justify-center">
           <div>
           <h1 data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" data-aos-duration="2000" className="text-center text-white text-2xl md:text-5xl font-semibold lg:font-bold">Academic Experience</h1>
@@ -19,7 +19,7 @@ const LatestWork = () => {
                 </div>
                 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="text-white lg:w-[550px] w-[370px] pl-4">
+     data-aos-duration="2000" className="text-white  lg:w-[550px] w-[370px] pl-4">
                     <h1 className="text-2xl pb-4 text-yellow-600 font-semibold">Higher Secondary School Certificate</h1>
                     <p className="text-lg font-semibold">Govt. Saroda Sundori Mohila College, Faridpur</p>
                     <p className="py-2">GPA: 5 (out of 5.00)</p>

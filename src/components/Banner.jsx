@@ -26,11 +26,15 @@ const Banner = () => {
     };
 
     return (
-        <div id="banner" className=" lg:pt-28 pb-16">
+        <div id="banner" className=" lg:pt-28 pb-0 lg:pb-16">
                <div className="sm:px-6 px-6 text-white pt-28 lg:pt-48 max-w-7xl mx-auto flex flex-row items-start gap-5">
-             <div className="flex w-[98vw] justify-between items-center">
+             <div className="lg:flex flex-row-reverse w-[98vw] justify-between items-center">
+                 
+                 <div data-aos="fade-left" data-aos-duration="2000" className="pb-8">
+                 <img className=" md:w-72 rounded-full" src="https://i.ibb.co/Lg9qNrG/405953333-1402037064079628-8175730261259233325-n-removebg-preview-1.png" alt="profile picture" />
+                 </div>
                  <div data-aos="fade-right" data-aos-duration="2000" className="pr-2">
-                     <h1 className="text-xl font-bold md:text-3xl lg:text-5xl">RIME ISLAM RIMU</h1>
+                     <h1 className=" font-bold text-3xl lg:text-5xl">RIME ISLAM RIMU</h1>
                      <h3 className="lg:text-xl font-semibold text-yellow-600">Front-end Developer</h3>
                         <p className="lg:w-96 w-48 mt-2">Allow me to introduce myself: I'm a Junior Development Dynamo! With
                          a passion for blending creativity and coding expertise, I thrive
@@ -44,9 +48,6 @@ const Banner = () => {
             </button>
                        <a href="https://drive.google.com/file/d/1UQD1x_75WkJdpSESnRGq4R8-wiw1UNhC/view?usp=drive_link"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
                      </div>
-                 </div>
-                 <div data-aos="fade-left" data-aos-duration="2000" className="">
-                 <img className=" md:w-72 rounded-full" src="https://i.ibb.co/Lg9qNrG/405953333-1402037064079628-8175730261259233325-n-removebg-preview-1.png" alt="profile picture" />
                  </div>
              </div>
             
