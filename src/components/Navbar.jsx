@@ -17,10 +17,10 @@ const Navbar = () => {
          <div className="navbar flex justify-center shadow-lg">
            <div className="navbar-start">
                  <div className="flex md:ml-2 font-serif">
-                      <span className="lg:text-2xl font-bold mr-1 text-white lg:mr-0">Rime|</span><span className="text-amber-600 sm:text-sm md:mt-1 lg:mt-2 font-bold">React Developer</span>
+                      <span className="text-lg -ml-2 lg:-ml-0 lg:text-3xl font-bold text-white">Rime</span><span className='text-xl lg:text-3xl font-bold text-white px-1'>|</span><span className="text-amber-600 sm:text-sm lg:text-lg mt-1 lg:mt-1.5 font-bold">Web Developer</span>
                    </div>
            </div>
-           <div className="navbar-center hidden lg:flex">
+           <div className="navbar-end hidden lg:flex">
              <ul className="menu menu-horizontal px-1">
              {
                navLink
