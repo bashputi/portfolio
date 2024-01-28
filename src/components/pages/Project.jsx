@@ -85,13 +85,13 @@ const Project = () => {
           
           </div>
         <div data-aos="fade-down" data-aos-duration="2000" className="">
-            <h1 className="text-3xl font-semibold">MREN Stack Project</h1>
+            <h1 className="text-3xl font-semibold">MERN Stack Project</h1>
             <p className="text-yellow-500">A parcel order and delivery website</p>
             <p className="text-xl py-5">Front-end Code: <a href="https://github.com/bashputi/parcel_client"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
               <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/parcel-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
               <a href="https://parcel-delivery-user.web.app"><button className="btn btn-success">Live Site</button></a>
               <div>
-                <p className=" pt-3"> <span className="text-xl">Tecnology:</span> React, react-hook-form, <br /> email.js, stripe-js, material-uI, <br /> firebase, mongoDB, express.js</p>
+                <p className=" pt-3"> <span className="text-xl text-yellow-500">Technologies:</span> React, react-hook-form, <br /> email.js, stripe-js, material-uI, <br /> firebase, mongoDB, express.js</p>
               </div>
         </div>
         </div>
@@ -104,7 +104,7 @@ const Project = () => {
               <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/bakery-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
               <a href="https://bakery-client-2384d.web.app"><button className="btn btn-success">Live Site</button></a>
               <div>
-                <p className=" pt-3"> <span className="text-xl">Tecnology:</span> React, react-hook-form, <br />firebase, mongoDB, express.js</p>
+                <p className=" pt-3"> <span className="text-xl text-yellow-500">Technologies:</span> React, react-hook-form, <br />firebase, mongoDB, express.js</p>
               </div>
               
           </div>
@@ -267,7 +267,7 @@ const Project = () => {
               <p className="text-xl pb-6">Back-end Code: <a href="https://github.com/bashputi/Brand-shop-server"><button className="btn btn-outline px-8 ml-4 btn-accent"><FaEye /></button></a></p>
               <a href="https://brandsore-client.web.app"><button className="btn btn-success">Live Site</button></a>
               <div>
-                <p className=" pt-3"> <span className="text-xl">Tecnology:</span> React, firebase, <br /> mongoDB, express.js</p>
+                <p className=" pt-3"> <span className="text-xl text-yellow-500">Technologies:</span> React, firebase, <br /> mongoDB, express.js</p>
               </div>
           </div>
           </div>
