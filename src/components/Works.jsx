@@ -18,18 +18,18 @@ const Works = () => {
     const services = [
         {
             id: '01',
-            name: 'React js Developer',
-            description: 'Designing dynamic interfaces, managing state flawlessly, and integrating data seamlessly—your knack for React development fuels high-performance, collaborative, and innovative web experiences.'
+            name: 'React.js / Next.js Developer',
+            description: 'Creating engaging user interfaces and bringing data to life—my role as a React.js / Next.js Developer ensures seamless, high-performing, and innovative web experiences that truly make an impact.'
         },
         {
             id: '02',
-            name: 'Front-end Developer',
-            description: 'Creating captivating interfaces, and integrating data flawlessly—your expertise as a front-end developer drives high-performance, collaborative, and innovative web experiences.',
+            name: 'Backend / Node.js Developer',
+            description: 'Building robust server-side applications and managing databases—my expertise as a Backend / Node.js Developer ensures seamless functionality, efficient data handling, and scalable solutions for modern web platforms.',
         },
         {
             id: '03',
-            name: 'MERN Stack Developer',
-            description: 'Crafting captivating interfaces, and integrating data flawlessly within the MERN stack—your expertise drives high-performance, collaborative, and innovative web experiences from end to end.'
+            name: 'Full Stack Developer',
+            description: 'Bringing both front-end interfaces and back-end systems to life—my role as a Full Stack Developer ensures seamless, high-performing, and innovative web experiences from start to finish.'
     }
     ]
 

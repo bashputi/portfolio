@@ -25,6 +25,7 @@ module.exports = withMT({
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+
     },
   },
   plugins: [require("daisyui")],

@@ -6,10 +6,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     
     const navLink = <>
-    <li className="text-lg font-semibold"><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Home</NavLink></li>
-    <li className="text-lg font-semibold"><NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>About</NavLink></li>
-    <li className="text-lg font-semibold"><NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Projects</NavLink></li>
-    <li className="text-lg font-semibold"><NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Contact</NavLink></li>
+    <li className="text-lg font-semibold "><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Home</NavLink></li>
+    <li className="text-lg font-semibold "><NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>About</NavLink></li>
+    <li className="text-lg font-semibold "><NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Projects</NavLink></li>
+    <li className="text-lg font-semibold "><NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-[#915] underline" : "text-white" }>Contact</NavLink></li>
     </>
     
     return (

@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 const About = () => {
     
     return (
-       <div className="bg-primary mx-auto">
+       <div id="about" className="bg-primary mx-auto">
         <Banner></Banner>
        <Works></Works>
        <Skill></Skill>
@@ -20,17 +20,17 @@ const About = () => {
        <div className="fixed flex flex-col items-center  h-32 gap-5 top-[30vh] mx-auto w-14 right-12 l">
                 <Link activeClass="active" smooth={true} spy={true} to="banner">
                   
-                  <FaUserAlt className="text-center w-6 text-white h-6"/>
+                  <FaUserAlt className="text-center w-6 text-white h-6 hover:scale-125"/>
                  
                   </Link>
                   <Link activeClass="active" smooth={true} spy={true} to="work">
-                    <FaClipboardList className="text-center w-6 text-white h-6"/>
+                    <FaClipboardList className="text-center w-6 text-white h-6 hover:scale-125" />
                   </Link>
                   <Link activeClass="active" smooth={true} spy={true} to="skill">
-                 <GiSkills className="text-center w-6 text-white h-6"/>
+                 <GiSkills className="text-center w-6 text-white h-6 hover:scale-125"/>
                   </Link>
                   <Link activeClass="active" smooth={true} spy={true} to="latestwork">
-                    <FaGraduationCap className="text-center w-6 text-white h-6"/>
+                    <FaGraduationCap className="text-center w-6 text-white h-6 hover:scale-125"/>
                   </Link>
                  
              </div>

@@ -25,8 +25,8 @@ const Contact = () => {
       setLoading(true);
 
       emailjs.send(
-        'service_eqd9bnn',
-        'template_pne1a3n',
+        'service_0hmohnd',
+        'template_7b1zz4d',
         {
           form_name: form.name,
           to_name: 'Rime',
@@ -34,7 +34,7 @@ const Contact = () => {
           to_email: 'rimeislam672@gmail.com',
           message: form.text,
         },
-        'dhlxN7srrlbHV14-N'
+        'sX_ZXcs4L_PTs_s5T'
       )
       .then(() => {
         setLoading(false);
@@ -75,6 +75,7 @@ const Contact = () => {
                     <input
                      type="text"
                       name='name'
+                      required
                        value={form.name} 
                        onChange={handleChange} 
                        placeholder="What's your name?"
@@ -86,6 +87,7 @@ const Contact = () => {
                     <input
                      type="email"
                       name='email'
+                      required
                        value={form.email} 
                        onChange={handleChange} 
                        placeholder="Write your email..."
@@ -99,6 +101,7 @@ const Contact = () => {
                       name='text'
                        value={form.text} 
                        onChange={handleChange} 
+                       required
                        placeholder="What's do you want to say?"
                        className='bg-tertiary py-2 px-4 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
                        />
