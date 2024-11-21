@@ -43,9 +43,9 @@ const Banner = () => {
                      <div className="mt-5">
                         <h1 className="text-2xl font-semibold md:text-3xl">My Resume</h1>
                         <button onClick={() => { downloadFile() }} className="btn mt-4 btn-success px-5 ">
-                <FaArrowAltCircleDown className="h-5 w-6 hover:w-8"/>
+                <FaArrowAltCircleDown className="h-5 w-6 hover:scale-125"/>
             </button>
-                       <a href="https://drive.google.com/file/d/1UHqoaPW1UYA2ySbM6Ni28kQEb9aSaG4h/view?usp=sharing"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:w-8"/></button></a>
+                       <a href="https://drive.google.com/file/d/1UHqoaPW1UYA2ySbM6Ni28kQEb9aSaG4h/view?usp=sharing"> <button className="btn ml-4 btn-warning px-5"><FaRegEye className="h-5 w-6 hover:scale-125"/></button></a>
                      </div>
                  </div>
              </div>
